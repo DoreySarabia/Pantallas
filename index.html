@@ -2,95 +2,463 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-    <title>Registro</title>
-    <link type="text/css" rel="stylesheet" href="css/style.css" />
-    <link type="text/css" rel="stylesheet" href="fonts/style.css" />
-
-
-
+    <title>INICIO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
-<body>
-    <header id="main-header">
-        <div class="flex">
-            <div id="izquierda"><span class="icon-menu"></span></div>
-            <div id="izquierda"><span class="icon-search"></span></div>
+<body class="principal">
 
-            <div id="centro"></div>
-            <div class="header-logo">
-                <a href="#" class="logo">
-                    <img src="./img/logo.png" alt="">
-                </a>
+    <!-- Header -->
+    <header class="header1">
+        <!-- Header desktop -->
+        <div class="container-menu-header">
+            <div class="topbar">
             </div>
-            <div id="derecha"><span class="icon-fire"></span></div>
-            <div id="derecha"><span class="icon-cart"></span></div>
 
 
+            <div class="wrap_header">
+                <!-- Logo -->
+                <a href="index.html" class="logo">
+                    <img src="images/icons/logo.png" alt="IMG-LOGO">
+                </a>
+
+                <!-- Menu -->
+                <div class="wrap_menu">
+                    <nav class="menu">
+                        <ul class="main_menu">
+                            <li>
+                                <a href="index.html">INICIO</a>
+                    </nav>
+                </div>
+
+                <!-- Header Icon -->
+                <div class="header-icons">
+                    <a href="#" class="header-wrapicon1 dis-block">
+                        <img src="images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
+                    </a>
+
+                    <span class="linedivide1"></span>
+
+                    <div class="header-wrapicon2">
+                        <img src="images/icons/icon-header-02.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
+                        <span class="header-icons-noti">0</span>
+
+                        <!-- Header cart noti -->
+                        <div class="header-cart header-dropdown">
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header Mobile -->
+        <div class="wrap_header_mobile">
+            <!-- Logo moblie -->
+            <a href="index.html" class="logo-mobile">
+                <img src="images/icons/logo.png" alt="IMG-LOGO">
+            </a>
+
+            <!-- Button show menu -->
+            <div class="btn-show-menu">
+                <!-- Header Icon mobile -->
+                <div class="header-icons-mobile">
+                    <a href="#" class="header-wrapicon1 dis-block">
+                        <img src="images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
+                    </a>
+
+                    <span class="linedivide2"></span>
+
+                    <div class="header-wrapicon2">
+                        <img src="images/icons/icon-header-02.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
+                        <span class="header-icons-noti">0</span>
+
+                        <!-- Header cart noti -->
+                        <div class="header-cart header-dropdown">
+
+                            <div class="header-cart-buttons">
+                                <div class="header-cart-wrapbtn">
+                                    <!-- Button -->
+                                    <a href="cart.html" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
+										Ver carrito
+									</a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+                    <span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu Mobile -->
+        <div class="wrap-side-menu">
+            <nav class="side-menu">
+                <ul class="main-menu">
+                    <li class="item-menu-mobile">
+                        <a href="index.html">Home</a>
+                        <i class="arrow-main-menu fa fa-angle-right" aria-hidden="true"></i>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
-    <!-- / #main-header -->
 
 
-    <section id="main-content">
+    <section class="slide1">
+        <div class="wrap-slick1">
+            <div class="slick1">
+                <div class="item-slick1 item1-slick1" style="background-image: url(images/product01.jpg);">
+                    <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                        <span class="caption1-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="fadeInDown">
+							Coleccion 2020
+						</span>
 
-        <div class="header">
-            <button class="button" id="signup">Registro</button>
-            <button class="button" id="login"> Iniciar sesion</button>
-        </div>
-        <!-- Formulario -->
-        <form class="formulario">
-            <label for="customer_name" span class="icon-user"></label> Nombre(s)</label><br>
-            <input type="text" name="customer_name" id="customer_name" required>
+                        <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="fadeInUp">
+                            Nuevos productos
+                        </h2>
 
-            <label for="customer_name" span class="icon-user"></label> Apellido(s)</label><br>
-            <input type="text" name="name" id="name" required>
+                        <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="zoomIn">
+                            <!-- Button -->
+                            <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+								Compra ahora
+							</a>
+                        </div>
+                    </div>
+                </div>
 
-            <label for="phone_number" span class="icon-address-book"></label>Numero de telefono</label><br>
-            <input type="tel" name="phone_number" id="phone_number">
 
-            <label for="email_address" span class="icon-envelop"></label> Correo electronico</label><br>
-            <input type="email" name="email_address" id="email_address">
-
-            <label for="password" span class="icon-lock"></label>Contraseña</label><br>
-            <input type="password" name="password" id="password">
-
-            <div class="formulario"></div>
-            <div class="redes">
-                <span class="icon-facebook2"></span>
-                <span class="icon-google2"></span>
             </div>
 
-            <button>Guardar</button>
-        </form>
-        <!-- /formulario -->
-
-    </section>
-    </div>
-    <!-- / #main-content -->
-
-
-    <!--Footer -->
-    <div id="pie">
-        <div id="iconfooter">
-            <class style="margin-left: .5px">
-                <span class="icon-home"> </span>
-            </class>
-            <class style="margin: 1em"></class>
-            <span class="icon-rocket"></span>
-            </class>
-            <class style="margin: 1em"></class>
-            <span class="icon-whatsapp"></span>
-            </class>
-            <class style="margin-right: 25px"></class>
-            <span class="icon-user"></span>
-            </class>
         </div>
-    </div>
-    <!-- /Footer -->
-</body>
+        </div>
+    </section>
 
+    <!--  Product -->
+    <section class="newproduct bgwhite p-t-45 p-b-105">
+        <div class="container">
+            <div class="sec-title p-b-60">
+                <h3 class="m-text5 t-center">
+                    Nuevos productos
+                </h3>
+            </div>
+
+            <!-- Slide2 -->
+            <div class="wrap-slick2">
+                <div class="slick2">
+
+                    <div class="item-slick2 p-l-15 p-r-15">
+                        <!-- Block2 -->
+                        <div class="block2">
+                            <div class="block2-img wrap-pic-w of-hidden pos-relative block2-label">
+                                <img src="images/product04.jpg" alt="IMG-PRODUCT">
+
+                                <div class="block2-overlay trans-0-4">
+                                    <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                        <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                        <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                    </a>
+
+                                    <div class="block2-btn-addcart w-size1 trans-0-4">
+                                        <!-- Button -->
+                                        <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+											Personalizar
+										</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block2-txt p-t-20">
+                                <a href="#" class="block2-name dis-block s-text3 p-b-5">
+									Collar 
+								</a>
+                                <!-- find price -->
+                                <span class="block2-price m-text6 p-r-5">
+									$750.00
+								</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-slick2 p-l-15 p-r-15">
+                        <!-- Block2 -->
+
+                        <!-- Block2 -->
+                        <div class="block2">
+                            <div class="block2-img wrap-pic-w of-hidden pos-relative block2-label">
+                                <img src="images/product04.jpg" alt="IMG-PRODUCT">
+
+                                <div class="block2-overlay trans-0-4">
+                                    <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                        <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                        <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                    </a>
+
+                                    <div class="block2-btn-addcart w-size1 trans-0-4">
+                                        <!-- Button -->
+                                        <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+										Personalizar
+									</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block2-txt p-t-20">
+                                <a href="#" class="block2-name dis-block s-text3 p-b-5">
+								Collar 
+							</a>
+                                <!-- find price -->
+                                <span class="block2-price m-text6 p-r-5">
+								$750.00
+							</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-slick2 p-l-15 p-r-15">
+                        <!-- Block2 -->
+                        <!-- Block2 -->
+                        <div class="block2">
+                            <div class="block2-img wrap-pic-w of-hidden pos-relative block2-label">
+                                <img src="images/product04.jpg" alt="IMG-PRODUCT">
+
+                                <div class="block2-overlay trans-0-4">
+                                    <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                        <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                        <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                    </a>
+
+                                    <div class="block2-btn-addcart w-size1 trans-0-4">
+                                        <!-- Button -->
+                                        <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+									Personalizar
+								</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block2-txt p-t-20">
+                                <a href="#" class="block2-name dis-block s-text3 p-b-5">
+							Collar 
+						</a>
+                                <!-- find price -->
+                                <span class="block2-price m-text6 p-r-5">
+							$750.00
+						</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-slick2 p-l-15 p-r-15">
+                        <!-- Block2 -->
+                        <!-- Block2 -->
+                        <div class="block2">
+                            <div class="block2-img wrap-pic-w of-hidden pos-relative block2-label">
+                                <img src="images/product04.jpg" alt="IMG-PRODUCT">
+
+                                <div class="block2-overlay trans-0-4">
+                                    <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                        <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                        <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                    </a>
+
+                                    <div class="block2-btn-addcart w-size1 trans-0-4">
+                                        <!-- Button -->
+                                        <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+								Personalizar
+							</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block2-txt p-t-20">
+                                <a href="#" class="block2-name dis-block s-text3 p-b-5">
+						Collar 
+					</a>
+                                <!-- find price -->
+                                <span class="block2-price m-text6 p-r-5">
+						$750.00
+					</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-slick2 p-l-15 p-r-15">
+                        <!-- Block2 -->
+
+                        <!-- Block2 -->
+                        <div class="block2">
+                            <div class="block2-img wrap-pic-w of-hidden pos-relative block2-label">
+                                <img src="images/product04.jpg" alt="IMG-PRODUCT">
+
+                                <div class="block2-overlay trans-0-4">
+                                    <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                        <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                        <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                    </a>
+
+                                    <div class="block2-btn-addcart w-size1 trans-0-4">
+                                        <!-- Button -->
+                                        <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+								Personalizar
+							</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block2-txt p-t-20">
+                                <a href="#" class="block2-name dis-block s-text3 p-b-5">
+						Collar 
+					</a>
+                                <!-- find price -->
+                                <span class="block2-price m-text6 p-r-5">
+						$750.00
+					</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-slick2 p-l-15 p-r-15">
+                        <!-- Block2 -->
+                        <!-- Block2 -->
+                        <div class="block2">
+                            <div class="block2-img wrap-pic-w of-hidden pos-relative block2-label">
+                                <img src="images/product04.jpg" alt="IMG-PRODUCT">
+
+                                <div class="block2-overlay trans-0-4">
+                                    <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                        <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                        <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                    </a>
+
+                                    <div class="block2-btn-addcart w-size1 trans-0-4">
+                                        <!-- Button -->
+                                        <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+							Personalizar
+						</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block2-txt p-t-20">
+                                <a href="#" class="block2-name dis-block s-text3 p-b-5">
+					Collar 
+				</a>
+                                <!-- find price -->
+                                <span class="block2-price m-text6 p-r-5">
+					$750.00
+				</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-slick2 p-l-15 p-r-15">
+                        <!-- Block2 -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Banner2 -->
+    <section class="banner2 bg5 p-t-55 p-b-55">
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-sm-10 col-md-8 col-lg-6 m-l-r-auto p-t-15 p-b-15">
+                    <div class="bgwhite hov-img-zoom pos-relative p-b-20per-ssm">
+                        <img src="images/product05.jpg" alt="IMG-BANNER">
+
+                        <div class="ab-t-l sizefull flex-col-c-b p-l-15 p-r-15 p-b-20">
+                            <div class="t-center">
+                                <a href="#" class="dis-block s-text3 p-b-5">
+									Aretes
+								</a>
+
+                                <span class="block2-oldprice m-text7 p-r-5">
+									$500.00
+								</span>
+
+                                <span class="block2-newprice m-text8">
+									$350.00
+								</span>
+                            </div>
+
+                            <div class="flex-c-m p-t-44 p-t-30-xl">
+                                <div class="flex-col-c-m size3 bo1 m-l-5 m-r-5">
+                                    <span class="m-text10 p-b-1 days">
+										69
+									</span>
+
+                                    <span class="s-text5">
+										dias
+									</span>
+                                </div>
+
+                                <div class="flex-col-c-m size3 bo1 m-l-5 m-r-5">
+                                    <span class="m-text10 p-b-1 hours">
+										04
+									</span>
+
+                                    <span class="s-text5">
+										hrs
+									</span>
+                                </div>
+
+                                <div class="flex-col-c-m size3 bo1 m-l-5 m-r-5">
+                                    <span class="m-text10 p-b-1 minutes">
+										32
+									</span>
+
+                                    <span class="s-text5">
+										mins
+									</span>
+                                </div>
+
+                                <div class="flex-col-c-m size3 bo1 m-l-5 m-r-5">
+                                    <span class="m-text10 p-b-1 seconds">
+										05
+									</span>
+
+                                    <span class="s-text5">
+										secs
+									</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+
+
+
+    <script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/slick-custom.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
 
 </html>
